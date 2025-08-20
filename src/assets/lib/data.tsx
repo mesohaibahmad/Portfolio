@@ -12,18 +12,14 @@ import {
   GoProject,
 } from "react-icons/go";
 
-import figmaicon from "../../assets/icons/figmaicon.svg";
 import htmlicon from "../../assets/icons/htmlicon.svg";
 import cssicon from "../../assets/icons/cssicon.svg";
 import javascripticon from "../../assets/icons/javascripticon.svg";
 import typescripticon from "../../assets/icons/typescripticon.svg";
 import reacticon from "../../assets/icons/reacticon.svg";
 import nextjsicon from "../../assets/icons/nextjsicon.svg";
-import nodejsicon from "../../assets/icons/nodejsicon.svg";
 import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
-import mongodbicon from "../../assets/icons/mongoicon.svg";
 import vuejsicon from "../../assets/icons/vueicon.svg";
-import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import nestjsicon from "../../assets/icons/Nestjsicon.svg";
@@ -43,15 +39,12 @@ import vercelicon from "../../assets/icons/Vercelicon.svg";
 
 import RACASMockup from "../../assets/img/RACAS_mockup.png";
 import devSharksMockup from "../../assets/img/devsharks_mockup.png";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 
 import profilepicture from "../img/me2.webp";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
 import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
-import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
-
 import Imprint from "../../components/Imprint";
 import Privacy from "../../components/Privacy";
 
