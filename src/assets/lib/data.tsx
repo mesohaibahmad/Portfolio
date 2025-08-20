@@ -42,7 +42,7 @@ import vercelicon from "../../assets/icons/Vercelicon.svg";
 
 
 import RACASMockup from "../../assets/img/RACAS_mockup.png";
-import instorMockup from "../../assets/img/instor_mockup.webp";
+import devSharksMockup from "../../assets/img/devsharks_mockup.png";
 import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 
 import profilepicture from "../img/me2.webp";
@@ -114,7 +114,7 @@ export const projectsData = [
       { name: "REST Api", icon: apiicon },
       
     ],
-    image: silentmoonMockup,
+    image: "",
     deploymenturl: "http://OfferXpress.runasp.net/",
     githuburl: "https://github.com/mesohaibahmad/OfferXpress",
     githubicon: FiGithub,
@@ -138,7 +138,7 @@ export const projectsData = [
       { name: "Bootstrap", icon: bootstrapicon },
       { name: "Vercel", icon: vercelicon },
     ],
-    image: instorMockup,
+    image: devSharksMockup,
     deploymenturl: "https://dev-sharks.vercel.app/",
     githuburl: "https://github.com/mesohaibahmad/DevSharks",
     githubicon: FiGithub,

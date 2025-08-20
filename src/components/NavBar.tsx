@@ -128,6 +128,14 @@ const NavBar: React.FC = () => {
               )}
             </CustomNavLink>
           ))}
+            <a
+        href="https://drive.google.com/file/d/1RIBAGcwYgdlLL_5zgxr4lX4ZNWE241s-/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="main-btn px-6 py-2 rounded-lg ml-4 text-white"
+      >
+        Resume
+      </a>
         </nav>
       )}
       {isMobileMenuActive && (
@@ -163,6 +171,7 @@ const NavBar: React.FC = () => {
           ))}
         </nav>
       )}
+    
     </React.Fragment>
   );
 };

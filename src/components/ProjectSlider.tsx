@@ -96,7 +96,13 @@ const ProjectSlider: React.FC = () => {
                   key={index}
                   className="quote-outer-container bg-[--darkblue] text-[--white] flex flex-row justify-between  rounded-2xl p-20 text-left max-lg:hidden "
                 >
-                  <div className=" w-[55%] flex flex-col gap-12 justify-between ">
+                  <div className=" w-[95%] flex flex-col gap-12 justify-between ">
+                     <img
+                      src={project.image}
+                      alt={`${project.title}-project-mockup`}
+                      className={`w-full h-auto 
+                      `}
+                    />
                     <h2>{project.title}</h2>
 
                     <p className="text-white">
@@ -140,14 +146,14 @@ const ProjectSlider: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="right-content relative h-[40rem] overflow-hidden rounded-xl w-[40%] transition-all duration-200 shadow-2xl">
+                  {/* <div className="right-content relative h-[40rem] overflow-hidden rounded-xl w-[40%] transition-all duration-200 shadow-2xl">
                     <img
                       src={project.image}
                       alt={`${project.title}-project-mockup`}
                       className={`w-full h-auto transition-all duration-[6000ms] transform opacity-100 hover:translate-y-[-50%] 
                       `}
                     />
-                  </div>
+                  </div> */}
                 </SwiperSlide>
               ))}
             </Swiper>
