@@ -163,7 +163,7 @@ export const skillsDataFront = [ { skillsTitle: "Frontend",
     { title: "Bootstrap", hash: "#Bootstrap", icon: bootstrapicon, color: "#7952B3", }, 
   ], }, ] as const; 
 
-export const skillsDataBack = [ { skillsTitle: "Backend", skills: [  { title: "Nest.js", hash: "#Nest.js", icon: nestjsicon, color: "#DF234F", }, { title: ".NET", hash: "#.Net", icon: neticon, color: "#39AFE8", }, { title: ".NET Core", hash: "#.NET Core", icon: netcoreicon, color: "#623697", }, { title: "SQL", hash: "#SQL", icon: sqlicon, color: "#939699", }, { title: "Swagger", hash: "#Swagger", icon: swaggericon, color: "#85EA2D", }, { title: "REST Apis", hash: "#RESTApis", icon: apiicon, color: "#D83131", },  ], }, ] as const; 
+export const skillsDataBack = [ { skillsTitle: "Backend", skills: [ { title: ".NET", hash: "#.Net", icon: neticon, color: "#39AFE8", }, { title: ".NET Core", hash: "#.NET Core", icon: netcoreicon, color: "#623697", }, { title: "Nest.js", hash: "#Nest.js", icon: nestjsicon, color: "#DF234F", }, { title: "SQL", hash: "#SQL", icon: sqlicon, color: "#939699", }, { title: "Swagger", hash: "#Swagger", icon: swaggericon, color: "#85EA2D", }, { title: "REST Apis", hash: "#RESTApis", icon: apiicon, color: "#D83131", },  ], }, ] as const; 
 
 export const skillsDataTools = [ { skillsTitle: "Tools",
    skills: [ 
