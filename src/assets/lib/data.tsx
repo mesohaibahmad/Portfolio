@@ -6,7 +6,6 @@ import {
 } from "react-icons/fi";
 import {
   GoHome,
-  GoPerson,
   GoMail,
   GoStack,
   GoProject,

@@ -3,7 +3,6 @@ import Button from "./Button";
 import { headerIntroData } from "../assets/lib/data";
 import { useActiveSectionContext } from "../context/active-section-context";
 import { PiReadCvLogo } from "react-icons/pi";
-import { Link } from "react-router-dom";
 import { useTheme } from "../context/theme-context";
 import { BsMouse } from "react-icons/bs";
 
