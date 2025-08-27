@@ -12,7 +12,6 @@ import { useSectionInView } from "../assets/lib/hooks";
 const AboutMe: React.FC = () => {
   const progressCircle = useRef<SVGSVGElement | null>(null);
   const progressContent = useRef<HTMLSpanElement | null>(null);
-  const { ref } = useSectionInView("About me");
   const animationReference = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: animationReference,
@@ -37,7 +36,7 @@ const AboutMe: React.FC = () => {
       <section className="about-me relative mt-16 " id="about-me" ref={ref}>
         <div className="title-container flex flex-col gap-6 justify-center items-center p-32 w-1/2 max-lg:w-full max-lg:p-16 max-lg:items-start">
           <motion.div
-            ref={animationReference}
+      
             style={{
               scale: scaleProgess,
               opacity: opacityProgess,
