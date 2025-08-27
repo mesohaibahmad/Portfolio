@@ -7,7 +7,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { useSectionInView } from "../assets/lib/hooks";
+
 
 const AboutMe: React.FC = () => {
   const progressCircle = useRef<SVGSVGElement | null>(null);
@@ -33,7 +33,7 @@ const AboutMe: React.FC = () => {
 
   return (
     <React.Fragment>
-      <section className="about-me relative mt-16 " id="about-me" ref={ref}>
+      <section className="about-me relative mt-16 " id="about-me" >
         <div className="title-container flex flex-col gap-6 justify-center items-center p-32 w-1/2 max-lg:w-full max-lg:p-16 max-lg:items-start">
           <motion.div
       
