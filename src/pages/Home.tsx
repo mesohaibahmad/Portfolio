@@ -15,6 +15,7 @@ const LazyAboutMe = lazy(() => import("../components/AboutMe"));
 const LazyContact = lazy(() => import("../components/Contact"));
 const LazyHeaderIntro = lazy(() => import("../components/HeaderIntro"));
 const LazyRadialGradient = lazy(() => import("../components/RadialGradient"));
+const LazyEducation = lazy(() => import("../components/EducationSection"));
 
 const Home: React.FC = () => {
   const { theme } = useTheme();
@@ -52,13 +53,22 @@ const Home: React.FC = () => {
             />
 
             <LazyTechStack />
-            <Divider
+               <Divider
               thickness="0.25rem"
               direction="inner-right-to-middle"
               color="lightblue"
-              height="middle"
+              height="small"
               dividerStyle="solid"
             />
+            <LazyEducation />
+               <Divider
+              thickness="0.25rem"
+              direction="middle"
+              color="lightblue"
+              height="small"
+              dividerStyle="solid"
+            />
+         
 
             <LazyBannerQuote
               style={"noBG"}
@@ -98,6 +108,7 @@ const Home: React.FC = () => {
 
               <LazyContact />
             </div>
+          
           </Suspense>
         </main>
         <Footer />

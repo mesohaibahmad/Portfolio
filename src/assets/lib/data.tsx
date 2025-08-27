@@ -11,6 +11,7 @@ import {
   GoStack,
   GoProject,
 } from "react-icons/go";
+import { LuGraduationCap } from "react-icons/lu";
 
 import htmlicon from "../../assets/icons/htmlicon.svg";
 import cssicon from "../../assets/icons/cssicon.svg";
@@ -174,13 +175,23 @@ export const skillsDataTools = [ { skillsTitle: "Tools",
   { title: "WordPress", hash: "#WordPress", icon: wordpressicon, color: "#21759B", },
  ], }, ] as const
 
+//Education
+export const educationData = [
+  {
+    degree: "BS Software Engineering",
+    institution: "University of the Punjab",
+    year: "2021 - 2025",
+    description: "Focused on software engineering, web development, and data structures. Graduated with honors.",
+  },
+] as const;
+
 
 // Navigation
 export const navLinks = [
   { label: "Home", hash: "#home", icon: GoHome },
   { label: "Skills", hash: "#skills", icon: GoStack },
   { label: "Projects", hash: "#projects", icon: GoProject },
-  { label: "About me", hash: "#about-me", icon: GoPerson },
+  { label: "Education", hash: "#education", icon: LuGraduationCap },
   { label: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
@@ -329,3 +340,4 @@ export const spaceStyles: Record<string, React.CSSProperties> = {
                        
           export const widthStyles: Record<string, { widths: [string, string] }> = { "outer-right-to-inner-left": { widths: ["74.45%", "74.45%"], }, "outer-left-to-inner-right": { widths: ["75%", "75%"], }, "inner-right-to-middle": { widths: ["50.1%", "49%"], }, "inner-left-to-middle": { widths: ["50.1%", "49%"], }, "middle-to-inner-right": { widths: ["33.4%", "50.03%"], }, "middle-to-inner-left": { widths: ["50.1%", "49%"], },
  middle: { widths: ["0%", "0%"], }, };
+

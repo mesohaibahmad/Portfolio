@@ -9,7 +9,7 @@ export default {
         icewhite: "#ebebeb",
         grey: "#5d5d5d",
         // lightblue: "#9daaf2",
-        lightblue: "#798e93ff",
+        lightblue: "#DE947A",
         darkblue: "#1a2238",
         blackblue: "#0c1220",
         // orange: "#ff6a3d",
